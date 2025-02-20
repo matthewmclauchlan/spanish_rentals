@@ -5,7 +5,8 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./*"],
-      "ui/*": ["../../packages/ui/*"]
+      "ui/*": ["../../packages/ui/*"],
+      "packages/ui/*": ["../../packages/ui/*"]
     },
     "target": "ES6",
     "module": "ESNext",

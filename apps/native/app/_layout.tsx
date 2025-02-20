@@ -1,14 +1,18 @@
-import { Stack } from "expo-router";
-import { useEffect } from "react";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
-import { enableScreens } from "react-native-screens";
+// apps/native/app/_layout.tsx
+import { Slot } from 'expo-router';
+import * as React from 'react';
+import { SafeAreaView, StyleSheet } from 'react-native';
 
-enableScreens(); // Ensures screens optimization
-
-export default function Layout() {
+export default function RootLayout() {
   return (
-    <GestureHandlerRootView style={{ flex: 1 }}>
-      <Stack screenOptions={{ headerShown: false }} />
-    </GestureHandlerRootView>
+    <SafeAreaView style={styles.container}>
+      <Slot />
+    </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
