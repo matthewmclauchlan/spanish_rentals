@@ -1,4 +1,6 @@
 // apps/native/app/_layout.tsx
+"use client";
+
 import { Slot } from 'expo-router';
 import * as React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';

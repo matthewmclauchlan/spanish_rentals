@@ -1,4 +1,6 @@
 // apps/native/app/index.tsx
+"use client";
+
 import { useEffect } from 'react';
 import { useRouter } from 'expo-router';
 
