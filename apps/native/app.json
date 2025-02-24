@@ -37,6 +37,31 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "appwriteEndpoint": "https://cloud.appwrite.io/v1",
+      "appwriteProjectId": "6797ca6200280109949f",
+      "appwriteDatabaseId": "679806a4001e860eb422",
+      "appwriteMediaBucketId": "679a69ef00305be034d4",
+      "appwriteGalleriesCollectionId": "6798076c003794c066dc",
+      "appwriteReviewsCollectionId": "679807ce000e267a1ed1",
+      "appwriteAgentsCollectionId": "679806db001b1ac2d8d4",
+      "appwritePropertiesCollectionId": "67ae2a98001ec89f6574",
+      "appwriteBookingsCollectionId": "6798a96b000b93a9425e",
+      "appwriteRolesCollectionId": "679a45de0008e0238b89",
+      "appwriteBookingRulesCollectionId": "679a4b34002689781f7e",
+      "appwriteGuestDetailsCollectionId": "679a089a00331b98b2b5",
+      "appwritePaymentsCollectionId": "679a08090003577cce96",
+      "appwritePriceRulesCollectionId": "679a06430019de60df02",
+      "appwriteUsersCollectionId": "679a04b4003c510de7ec",
+      "appwriteMediaCollectionId": "679a01d30038abaaaa33",
+      "appwriteHouseRulesCollectionId": "679a0197000b81a946f6",
+      "appwriteAmenitiesCollectionId": "6799f929003c22acbb8d",
+      "appwriteHostCollectionId": "67a6563a0032861f4b60",
+      "appwritePriceAdjustmentsId": "67a9316700113a9f8f17",
+      "glideApiKey": "341cb2a7-2ce1-49ae-a810-f32b30e8c64a",
+      "glideAppId": "pjjqOZCYKIg5iaCeGQr2",
+      "webhookSecret": "8979ff68v0021cfd878z2"
     }
   }
 }

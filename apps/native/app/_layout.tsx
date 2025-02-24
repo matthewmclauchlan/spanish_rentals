@@ -1,15 +1,17 @@
-// apps/native/app/_layout.tsx
 "use client";
 
-import { Slot } from 'expo-router';
-import * as React from 'react';
-import { SafeAreaView, StyleSheet } from 'react-native';
+import { Slot } from "expo-router";
+import React from "react";
+import { SafeAreaView, StyleSheet } from "react-native";
+import { GlobalProvider } from "packages/ui/global-provider";
 
 export default function RootLayout() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Slot />
-    </SafeAreaView>
+    <GlobalProvider>
+      <SafeAreaView style={styles.container}>
+        <Slot />
+      </SafeAreaView>
+    </GlobalProvider>
   );
 }
 
